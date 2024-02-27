@@ -2,6 +2,7 @@
 .titre {
     text-align: center;
     font: Arial;
+    background-color: aliceblue;
 }
 
 .france {
@@ -21,6 +22,9 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif; 
 }
 
+p {
+    background-color: aliceblue;
+}
   
 .ciel {
     display:block;
