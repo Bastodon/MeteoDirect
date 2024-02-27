@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>MeteoDirect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-2.png">
+  </head>
+
+  <body class="ciel">
+
+    <h1 class="titre"> MeteoDirect </h1>
+  
+    <img src="assets/France.png" alt="France" usemap="#image-map" class="france">
+  
+    <map name="image-map">
+      <area target="" alt="Bretagne" title="Bretagne" href="https://fr.wikipedia.org/wiki/Bretagne" target="_blank" coords="27,158,82,146,103,164,124,158,148,157,156,166,166,163,160,195,129,206,116,218,37,191" shape="poly">
+      <area target="" alt="Normandie" title="Normandie" href="https://fr.wikipedia.org/wiki/Normandie" target="_blank" coords="144,91,158,93,168,110,230,108,232,88,276,69,288,109,277,126,269,140,252,148,248,173,235,160,216,161,204,153,157,157" shape="poly">
+      <area target="" alt="Haut de France" title="Haut de France" href="https://fr.wikipedia.org/wiki/Nord-Pas-de-Calais" target="_blank" coords="325,4,291,15,285,61,299,75,296,112,352,118,364,131,371,108,386,102,393,79,393,50" shape="poly">
+      <area target="" alt="Grand Est" title="Grand Est" href="https://fr.wikipedia.org/wiki/Grand_Est" target="_blank" coords="422,59,411,69,402,72,391,106,377,110,368,139,369,148,365,165,377,178,386,192,412,187,423,190,431,204,458,209,471,191,496,193,516,207,524,223,537,217,550,148,564,129" shape="poly">
+      <area target="" alt="Île-de-France" title="Île-de-France" href="https://fr.wikipedia.org/wiki/Île-de-France" target="_blank" coords="291,116,283,127,286,147,300,163,302,170,319,170,325,179,343,178,345,169,361,165,363,138,350,122" shape="poly">
+      <area target="" alt="Val-de-loire" title="Val-de-loire" href="https://fr.wikipedia.org/wiki/Centre-Val_de_Loire" target="_blank" coords="280,138,255,150,258,166,253,172,254,195,244,209,228,218,224,242,232,253,246,250,270,288,312,286,325,276,332,266,344,262,341,233,336,220,338,206,348,190,322,180,304,171,288,154" shape="poly">
+      <area target="" alt="Pays-de-la-loire" title="Pays-de-la-loire" href="https://fr.wikipedia.org/wiki/Pays_de_la_Loire" target="_blank" coords="176,162,204,162,211,161,216,167,228,163,234,170,250,183,248,196,228,212,216,242,183,251,191,290,164,294,122,253,122,238,112,234,114,222,133,214,160,203,175,192" shape="poly">
+      <area target="" alt="Bourgogne" title="Bourgogne" href="https://fr.wikipedia.org/wiki/Bourgogne-Franche-Comté" target="_blank" coords="349,171,368,171,371,182,378,186,384,198,409,196,418,191,430,210,442,216,461,213,466,202,477,194,499,197,516,213,517,231,494,257,481,275,476,286,463,295,454,288,441,282,427,282,420,298,412,293,405,295,402,302,387,298,390,282,372,268,348,267,344,231,342,206,352,191" shape="poly">
+      <area target="" alt="Nouvelle Aquitaine" title="Nouvelle Aquitaine" href="https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine" target="_blank" coords="188,258,220,245,231,258,244,258,267,294,312,289,324,305,320,324,320,347,309,360,304,372,295,377,284,370,260,398,256,413,246,433,207,441,205,461,212,466,215,484,204,509,157,494,156,481,145,478,171,342,151,302,191,298,194,278" shape="poly">
+      <area target="" alt="Auvergne" title="Auvergne" href="https://fr.wikipedia.org/wiki/Auvergne-Rhône-Alpes" target="_blank" coords="320,288,344,268,370,272,384,287,381,302,400,306,406,299,416,299,419,305,428,286,438,286,450,298,475,294,476,305,490,292,508,292,515,322,509,330,522,357,484,370,484,382,451,406,448,414,455,423,444,422,435,412,416,418,393,416,381,384,366,379,350,380,345,387,335,375,323,392,312,392,310,372,324,357,328,322,330,304" shape="poly">
+      <area target="" alt="Provence" title="Provence" href="https://fr.wikipedia.org/wiki/Provence-Alpes-Côte_d%27Azur" target="_blank" coords="489,373,501,369,508,383,515,383,519,394,512,418,544,426,540,450,500,487,467,494,440,482,401,468,415,456,423,437,418,420,435,420,451,430,460,427,453,412,472,394,485,385" shape="poly">
+      <area target="" alt="Occitanie" title="Occitanie" href="https://fr.wikipedia.org/wiki/Occitanie_(région_administrative)" target="_blank" coords="283,376,304,381,308,400,326,398,334,382,344,398,356,382,363,383,380,392,388,422,412,421,418,436,409,457,396,469,352,494,355,531,312,545,251,513,238,525,209,512,220,477,210,458,218,442,246,438,264,406" shape="poly">
+      <area target="" alt="Corse" title="Corse" href="https://fr.wikipedia.org/wiki/Corse" onClick="alert('Vous avez cliqué sur la Corse. Vous êtes mort.')" coords="619,499,608,511,580,534,590,593,616,599,624,555,624,525" shape="poly">
+    </map>
+
+    <input type="button" value="APPEL API METEO" onClick="buttonClickGET()" />
+    <p id="zone_meteo">toto</p>
+
+    <div class="weatherWidget"> </div>
+  
+  </body>
+</html>
