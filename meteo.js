@@ -1,6 +1,5 @@
 var callBackGetSuccess = function(data) {
-    console.log("donnees API", data)
-    //alert("Il fait " + data.main.temp + "°C en Bretagne");
+    //console.log("donnees API", data)//
     var element = document.getElementById("zone_meteo");
     element.innerHTML = data.name + " : " + data.main.temp + " °C";
 }

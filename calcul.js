@@ -2,13 +2,13 @@ var best = 99;
 var winner = "";
 
 var dataGenerated = function(data) {
-    console.log("Données générées :", data)
+    //console.log("Données générées :", data)//
 
     if ( data.main.temp < best ) { best = data.main.temp; winner = data.name }
 }
 
 var dataGeneratedFINAL = function(data) {
-    console.log("Données générées :", data)
+    //console.log("Données générées :", data)//
 
     if ( data.main.temp < best ) { best = data.main.temp; winner = data.name }
 
